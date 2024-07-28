@@ -49,13 +49,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     Weather_img.src = "assets/rainy.jpeg";
                     break;
                 case 'Mist':
-                    Weather_img.src = "assets/misty.webp";
+                    Weather_img.src = "assets/misty.jpg";
                     break;
                 case 'Snow':
                     Weather_img.src = "assets/snowy.jpeg";
                     break;
                 default:
-                    Weather_img.src = "";
+                    Weather_img.src = "assets/default.jpeg";
             }
 
             // Log the weather data to the console for debugging
